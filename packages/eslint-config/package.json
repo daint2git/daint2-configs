@@ -1,0 +1,54 @@
+{
+  "name": "@daint2-config/eslint-config",
+  "version": "0.0.0",
+  "description": "My eslint config",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "daint2 <daint2dev@gmail.com>",
+  "homepage": "https://github.com/daint2git/daint2-configs#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=12.17.0",
+    "npm": ">=6.14.4"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daint2git/daint2-configs.git",
+    "directory": "packages/eslint-config"
+  },
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "clean": "tsc -b tsconfig.build.json --clean",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "bugs": {
+    "url": "https://github.com/daint2git/daint2-configs/issues"
+  },
+  "peerDependencies": {
+    "eslint": "^7.6.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-prettier": "^3.1.4"
+  }
+}

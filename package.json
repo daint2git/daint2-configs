@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "@daint2-configs/root",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -19,6 +19,7 @@
   },
   "scripts": {
     "build": "lerna run build",
+    "typecheck": "lerna run typecheck",
     "check:format": "prettier **/*.{ts,js,json,md} --list-different",
     "format": "prettier **/*.{ts,js,json,md} --write"
   }
