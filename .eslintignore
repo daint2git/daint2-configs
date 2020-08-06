@@ -1,0 +1,4 @@
+# directories
+node_modules/
+dist/
+coverage/

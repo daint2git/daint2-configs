@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/config-lerna-scopes": "^9.1.1",
+    "@types/node": "^14.0.27",
+    "eslint": "^7.6.0",
+    "husky": "^4.2.5",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "check:format": "prettier **/*.{ts,js,json,md} --list-different",
+    "format": "prettier **/*.{ts,js,json,md} --write"
+  }
+}

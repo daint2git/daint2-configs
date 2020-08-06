@@ -1,0 +1,8 @@
+# directories
+node_modules/
+dist/
+coverage/
+.github
+
+# files
+CHANGELOG.md
