@@ -1,4 +1,4 @@
-export default {
+export = {
   overrides: [
     {
       files: ['*.test.ts', '*.test.js'],

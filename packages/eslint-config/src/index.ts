@@ -1,3 +1,3 @@
-export default {
+export = {
   extends: ['./base', './typescript'],
 };

@@ -1,4 +1,4 @@
-export default {
+export = {
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
@@ -10,6 +10,25 @@ export default {
         'plugin:import/typescript',
         'prettier/@typescript-eslint',
       ],
+      plugins: ['@typescript-eslint'],
+      rules: {
+        'import/extensions': [
+          'error',
+          'ignorePackages',
+          {
+            ts: 'never',
+            tsx: 'never',
+            js: 'never',
+            jsx: 'never',
+          },
+        ],
+        '@typescript-eslint/no-unused-vars': [
+          'error',
+          {
+            argsIgnorePattern: '^_',
+          },
+        ],
+      },
     },
   ],
 };

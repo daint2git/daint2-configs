@@ -15,7 +15,7 @@ const prettierOptions = {
   endOfLine: 'lf',
 };
 
-export default {
+export = {
   extends: [
     'eslint:recommended',
     'airbnb-base',
@@ -23,12 +23,17 @@ export default {
     'plugin:prettier/recommended',
   ],
   env: {
-    browser: true,
-    es6: true,
+    es2017: true,
     node: true,
   },
   ignorePatterns: ['node_modules', 'build', 'dist', 'lib', 'coverage'],
   rules: {
-    'prettier/prettier': [2, prettierOptions],
+    'prettier/prettier': ['warn', prettierOptions],
+    'no-unused-vars': [
+      'error',
+      {
+        argsIgnorePattern: '^_',
+      },
+    ],
   },
 };

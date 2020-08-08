@@ -5,12 +5,12 @@ My eslint config
 ## Installation
 
 ```bash
-yarn add @daint2-config/eslint-config --dev
+yarn add eslint prettier typescript @daint2-config/eslint-config --dev
 ```
 
 ## Usage
 
-1. recommend (base + typescript)
+1. default (base + typescript)
 
 ```bash
 {
@@ -39,5 +39,13 @@ yarn add @daint2-config/eslint-config --dev
 ```bash
 {
   "extends": ["@daint2-config/eslint-config/jest"]
+}
+```
+
+5. react only
+
+```bash
+{
+  "extends": ["@daint2-config/eslint-config/react"]
 }
 ```
