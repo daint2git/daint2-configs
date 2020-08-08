@@ -20,7 +20,11 @@
   "scripts": {
     "build": "lerna run build",
     "typecheck": "lerna run typecheck",
-    "check:format": "prettier **/*.{ts,js,json,md} --list-different",
-    "format": "prettier **/*.{ts,js,json,md} --write"
+    "clean": "lerna clean && lerna run clean",
+    "lerna:init": "lerna bootstrap --ignore-scripts && lerna link --force-local",
+    "check:format": "prettier **/*.{json,md} --list-different",
+    "format": "prettier **/*.{json,md} --write",
+    "lint": "eslint . --ext .ts,.js",
+    "lint:fix": "eslint . --ext .ts,.js --fix"
   }
 }
