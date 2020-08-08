@@ -4,13 +4,12 @@
   "description": "My eslint config",
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslint-config"
   ],
   "author": "daint2 <daint2dev@gmail.com>",
   "homepage": "https://github.com/daint2git/daint2-configs#readme",
   "license": "MIT",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "engines": {
     "node": ">=12.17.0",
     "npm": ">=6.14.4"
