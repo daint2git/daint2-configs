@@ -10,7 +10,7 @@ yarn add eslint prettier typescript @daint2-config/eslint-config --dev
 
 ## Usage
 
-1. default (base + typescript)
+1. default (base + typescript + jest)
 
 ```bash
 {
@@ -47,5 +47,13 @@ yarn add eslint prettier typescript @daint2-config/eslint-config --dev
 ```bash
 {
   "extends": ["@daint2-config/eslint-config/react"]
+}
+```
+
+6. vue only
+
+```bash
+{
+  "extends": ["@daint2-config/eslint-config/vue"]
 }
 ```
