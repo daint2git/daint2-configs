@@ -2,7 +2,7 @@
 
 Monorepo for all configs to support my projects
 
-## lerna
+## [lerna](https://github.com/lerna/lerna)
 
 1. add
 
@@ -14,8 +14,14 @@ lerna add some-pkg --scope=@daint2-config/eslint-config --dev
 lerna add some-pkg -W --dev
 ```
 
-2. [create](https://github.com/lerna/lerna/tree/master/commands/create#readme)
+2. create
 
 ```bash
 lerna create @daint2-config/eslint-config --access=public --license=MIT
+```
+
+3. publish
+
+```bash
+lerna publish --conventional-commits
 ```
