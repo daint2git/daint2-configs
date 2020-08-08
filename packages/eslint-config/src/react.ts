@@ -1,5 +1,10 @@
 export = {
-  extends: ['airbnb', 'airbnb/hooks', 'plugin:react/recommended'],
+  extends: [
+    'airbnb',
+    'airbnb/hooks',
+    'plugin:react/recommended',
+    'prettier/react',
+  ],
   env: {
     browser: true,
   },
