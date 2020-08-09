@@ -9,7 +9,7 @@
 lerna add some-pkg --scope=@daint2-config/eslint-config --dev
 
 # add dependency to root -W: --ignore-workspace-root-check
-lerna add some-pkg -W --dev
+yarn add some-pkg -W --dev
 ```
 
 - create
