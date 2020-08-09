@@ -1,0 +1,51 @@
+{
+  "name": "@daint2-configs/jest-preset",
+  "version": "1.0.0",
+  "description": "My jest preset",
+  "keywords": [
+    "daint2",
+    "daint2-configs",
+    "jest",
+    "jest-preset"
+  ],
+  "author": "daint2 <daint2dev@gmail.com>",
+  "homepage": "https://github.com/daint2git/daint2-configs#readme",
+  "license": "MIT",
+  "main": "dist/default/jest-preset.js",
+  "engines": {
+    "node": ">=12.17.0"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daint2git/daint2-configs.git",
+    "directory": "packages/jest-preset"
+  },
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "clean": "tsc -b tsconfig.build.json --clean",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "bugs": {
+    "url": "https://github.com/daint2git/daint2-configs/issues"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "babel-jest": "^26.2.2",
+    "deepmerge": "^4.2.2",
+    "jest": "^26.2.2",
+    "jest-serializer": "^26.2.0",
+    "jest-serializer-vue": "^2.0.2",
+    "jest-watch-typeahead": "^0.6.0",
+    "ts-jest": "^26.1.4",
+    "vue-jest": "^3.0.6"
+  }
+}
