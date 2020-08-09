@@ -1,11 +1,11 @@
-# `@daint2-configss/jest-preset`
+# `@daint2-configs/jest-preset`
 
 My jest preset
 
 ## Installation
 
 ```bash
-yarn add @daint2-configss/jest-preset --dev
+yarn add @daint2-configs/jest-preset --dev
 ```
 
 ## Usage
