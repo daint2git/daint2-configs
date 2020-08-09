@@ -1,6 +1,6 @@
 {
   "name": "@daint2-configs/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "My eslint config",
   "keywords": [
     "daint2",
