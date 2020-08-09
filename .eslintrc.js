@@ -1,9 +1,13 @@
 module.exports = {
   root: true,
   // extends: ['@daint2-configs/eslint-config'],
-  extends: [require.resolve('./packages/eslint-config/dist')],
+  extends: [
+    './packages/eslint-config/dist/base',
+    './packages/eslint-config/dist/jest',
+    './packages/eslint-config/dist/typescript',
+  ],
   parserOptions: {
-    project: ['./packages/*/tsconfig.json'],
+    project: ['tsconfig.json', './packages/*/tsconfig.json'],
     tsconfigRootDir: __dirname,
   },
 };
