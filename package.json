@@ -20,7 +20,7 @@
     "typescript": "^3.9.7"
   },
   "scripts": {
-    "build": "lerna run build",
+    "build": "yarn rimraf packages/*/dist && lerna run build",
     "typecheck": "lerna run typecheck",
     "clean": "lerna clean && lerna run clean",
     "lerna:init": "lerna bootstrap --ignore-scripts && lerna link --force-local",
