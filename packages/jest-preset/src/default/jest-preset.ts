@@ -4,8 +4,10 @@ export = {
   testEnvironment: 'jest-environment-node',
   transform: {
     '^.+\\.js?(x)': 'babel-jest',
-    '.+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$':
-      path.join(__dirname, 'jest-transform-stub'),
+    '.+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$': path.join(
+      __dirname,
+      'jest-transform-stub',
+    ),
   },
   testMatch: [
     '**/tests/**/*.(spec|test).js?(x)',
