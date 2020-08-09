@@ -1,7 +1,7 @@
 export = {
   overrides: [
     {
-      files: ['*.test.ts', '*.test.js'],
+      files: ['*.(spec|test).ts', '*.(spec|test).js'],
       extends: ['plugin:jest/recommended'],
     },
   ],

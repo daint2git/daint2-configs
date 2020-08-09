@@ -1,59 +1,59 @@
-# `@daint2-config/eslint-config`
+# `@daint2-configs/eslint-config`
 
 My eslint config
 
 ## Installation
 
 ```bash
-yarn add eslint prettier typescript @daint2-config/eslint-config --dev
+yarn add eslint prettier typescript @daint2-configs/eslint-config --dev
 ```
 
 ## Usage
 
-1. default (base + typescript + jest)
+- default (base + jest)
 
 ```bash
 {
-  "extends": ["@daint2-config/eslint-config"]
+  "extends": ["@daint2-configs/eslint-config"]
 }
 ```
 
-2. base only
+- base only
 
 ```bash
 {
-  "extends": ["@daint2-config/eslint-config/base"]
+  "extends": ["@daint2-configs/eslint-config/base"]
 }
 ```
 
-3. typescript only
+- typescript only
 
 ```bash
 {
-  "extends": ["@daint2-config/eslint-config/typescript"]
+  "extends": ["@daint2-configs/eslint-config/typescript"]
 }
 ```
 
-4. jest only
+- jest only
 
 ```bash
 {
-  "extends": ["@daint2-config/eslint-config/jest"]
+  "extends": ["@daint2-configs/eslint-config/jest"]
 }
 ```
 
-5. react only
+- react only
 
 ```bash
 {
-  "extends": ["@daint2-config/eslint-config/react"]
+  "extends": ["@daint2-configs/eslint-config/react"]
 }
 ```
 
-6. vue only
+- vue only
 
 ```bash
 {
-  "extends": ["@daint2-config/eslint-config/vue"]
+  "extends": ["@daint2-configs/eslint-config/vue"]
 }
 ```

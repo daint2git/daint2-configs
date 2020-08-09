@@ -1,4 +1,6 @@
-const prettierOptions = {
+import type { Options } from 'prettier';
+
+const prettierOptions: Options = {
   printWidth: 80,
   tabWidth: 2,
   useTabs: false,
@@ -29,6 +31,14 @@ export = {
   ignorePatterns: ['node_modules', 'build', 'dist', 'lib', 'coverage'],
   rules: {
     'prettier/prettier': ['warn', prettierOptions],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+      },
+    ],
     'no-unused-vars': [
       'error',
       {

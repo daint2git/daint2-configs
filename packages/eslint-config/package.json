@@ -1,8 +1,10 @@
 {
-  "name": "@daint2-config/eslint-config",
+  "name": "@daint2-configs/eslint-config",
   "version": "1.0.0",
   "description": "My eslint config",
   "keywords": [
+    "daint2",
+    "daint2-configs",
     "eslint",
     "eslint-config"
   ],
@@ -11,8 +13,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "engines": {
-    "node": ">=12.17.0",
-    "npm": ">=6.14.4"
+    "node": ">=12.17.0"
   },
   "files": [
     "dist",

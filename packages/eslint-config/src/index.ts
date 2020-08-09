@@ -1,3 +1,3 @@
 export = {
-  extends: ['./base', './typescript', './jest'],
+  extends: ['./base', './jest'],
 };
