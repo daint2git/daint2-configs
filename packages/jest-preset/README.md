@@ -22,7 +22,7 @@ yarn add @daint2-configs/jest-preset --dev
 
 ```bash
 {
-  "preset": "@daint2-configs/jest-preset/typescript"
+  "preset": "@daint2-configs/jest-preset/dist/typescript"
 }
 ```
 
@@ -30,7 +30,7 @@ yarn add @daint2-configs/jest-preset --dev
 
 ```bash
 {
-  "preset": "@daint2-configs/jest-preset/typescript-and-babel"
+  "preset": "@daint2-configs/jest-preset/dist/typescript-and-babel"
 }
 ```
 
@@ -38,7 +38,7 @@ yarn add @daint2-configs/jest-preset --dev
 
 ```bash
 {
-  "preset": "@daint2-configs/jest-preset/react"
+  "preset": "@daint2-configs/jest-preset/dist/react"
 }
 ```
 
@@ -46,7 +46,7 @@ yarn add @daint2-configs/jest-preset --dev
 
 ```bash
 {
-  "preset": "@daint2-configs/jest-preset/react-and-typescript"
+  "preset": "@daint2-configs/jest-preset/dist/react-and-typescript"
 }
 ```
 
@@ -54,7 +54,7 @@ yarn add @daint2-configs/jest-preset --dev
 
 ```bash
 {
-  "preset": "@daint2-configs/jest-preset/vue"
+  "preset": "@daint2-configs/jest-preset/dist/vue"
 }
 ```
 
@@ -62,6 +62,6 @@ yarn add @daint2-configs/jest-preset --dev
 
 ```bash
 {
-  "preset": "@daint2-configs/jest-preset/vue-and-typescript"
+  "preset": "@daint2-configs/jest-preset/dist/vue-and-typescript"
 }
 ```

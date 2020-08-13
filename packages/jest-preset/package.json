@@ -16,7 +16,7 @@
     "node": ">=12.17.0"
   },
   "files": [
-    "dist/*",
+    "dist",
     "package.json",
     "README.md",
     "LICENSE"
