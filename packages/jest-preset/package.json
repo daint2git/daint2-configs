@@ -11,12 +11,13 @@
   "author": "daint2 <daint2dev@gmail.com>",
   "homepage": "https://github.com/daint2git/daint2-configs#readme",
   "license": "MIT",
-  "main": "dist/default/jest-preset.js",
+  "main": "jest-preset.js",
   "engines": {
     "node": ">=12.17.0"
   },
   "files": [
     "dist",
+    "jest-preset.js",
     "package.json",
     "README.md",
     "LICENSE"
