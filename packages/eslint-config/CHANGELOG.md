@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/daint2git/daint2-configs/compare/v1.2.0...v1.3.0) (2020-08-14)
+
+
+### Features
+
+* **eslint-config:** update env ([8641740](https://github.com/daint2git/daint2-configs/commit/864174091ce4c80ef6304808019ffc9e1274c980))
+
+
+
+
+
 # [1.2.0](https://github.com/daint2git/daint2-configs/compare/v1.1.3...v1.2.0) (2020-08-14)
 
 
