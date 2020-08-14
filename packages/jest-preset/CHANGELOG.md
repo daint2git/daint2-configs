@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/daint2git/daint2-configs/compare/v1.1.3...v1.2.0) (2020-08-14)
+
+
+### Bug Fixes
+
+* expose default jest-preset ([5eaa28d](https://github.com/daint2git/daint2-configs/commit/5eaa28dee15188d6ff679273be9d2ccf19832225))
+
+
+
+
+
 ## [1.1.3](https://github.com/daint2git/daint2-configs/compare/v1.1.2...v1.1.3) (2020-08-13)
 
 
