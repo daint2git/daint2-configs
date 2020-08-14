@@ -5,8 +5,8 @@
 - add
 
 ```bash
-# packages/@daint2-config/eslint-config
-lerna add some-pkg --scope=@daint2-config/eslint-config --dev
+# packages/@daint2-configs/eslint-config
+lerna add some-pkg --scope=@daint2-configs/eslint-config --dev
 
 # add dependency to root -W: --ignore-workspace-root-check
 yarn add some-pkg -W --dev
@@ -15,7 +15,7 @@ yarn add some-pkg -W --dev
 - create
 
 ```bash
-lerna create @daint2-config/eslint-config --access=public --license=MIT
+lerna create @daint2-configs/eslint-config --access=public --license=MIT
 ```
 
 - publish

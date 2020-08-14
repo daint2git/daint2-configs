@@ -11,12 +11,20 @@
   "author": "daint2 <daint2dev@gmail.com>",
   "homepage": "https://github.com/daint2git/daint2-configs#readme",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "index.js",
   "engines": {
     "node": ">=12.17.0"
   },
   "files": [
     "dist",
+    "index.js",
+    "base.js",
+    "jest.js",
+    "prettier.js",
+    "typescript.js",
+    "react.js",
+    "vue.js",
+    "vue-and-typescript.js",
     "package.json",
     "README.md",
     "LICENSE"
@@ -54,6 +62,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.8",
-    "eslint-plugin-vue": "^6.2.2"
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-eslint-parser": "^7.0.0"
   }
 }

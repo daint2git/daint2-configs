@@ -3,6 +3,10 @@ export = {
     {
       files: ['*.ts', '*.tsx'],
       parser: '@typescript-eslint/parser',
+      parserOptions: {
+        ecmaVersion: 2020,
+        sourceType: 'module',
+      },
       extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
@@ -11,10 +15,6 @@ export = {
         'prettier/@typescript-eslint',
       ],
       plugins: ['@typescript-eslint'],
-      parserOptions: {
-        ecmaVersion: 2017,
-        sourceType: 'module',
-      },
       rules: {
         'import/extensions': [
           'error',

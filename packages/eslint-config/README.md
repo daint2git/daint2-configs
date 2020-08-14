@@ -22,7 +22,7 @@ yarn add eslint prettier typescript @daint2-configs/eslint-config --dev
 
 ```bash
 {
-  "extends": ["@daint2-configs/eslint-config/dist/base"]
+  "extends": ["@daint2-configs/eslint-config/base"]
 }
 ```
 
@@ -30,7 +30,7 @@ yarn add eslint prettier typescript @daint2-configs/eslint-config --dev
 
 ```bash
 {
-  "extends": ["@daint2-configs/eslint-config/dist/typescript"]
+  "extends": ["@daint2-configs/eslint-config/typescript"]
 }
 ```
 
@@ -38,7 +38,7 @@ yarn add eslint prettier typescript @daint2-configs/eslint-config --dev
 
 ```bash
 {
-  "extends": ["@daint2-configs/eslint-config/dist/jest"]
+  "extends": ["@daint2-configs/eslint-config/jest"]
 }
 ```
 
@@ -46,7 +46,7 @@ yarn add eslint prettier typescript @daint2-configs/eslint-config --dev
 
 ```bash
 {
-  "extends": ["@daint2-configs/eslint-config/dist/react"]
+  "extends": ["@daint2-configs/eslint-config/react"]
 }
 ```
 
@@ -54,6 +54,14 @@ yarn add eslint prettier typescript @daint2-configs/eslint-config --dev
 
 ```bash
 {
-  "extends": ["@daint2-configs/eslint-config/dist/vue"]
+  "extends": ["@daint2-configs/eslint-config/vue"]
+}
+```
+
+- vue + typescript
+
+```bash
+{
+  "extends": ["@daint2-configs/eslint-config/vue-and-typescript"]
 }
 ```
