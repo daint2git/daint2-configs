@@ -14,7 +14,10 @@ export = {
     'plugin:import/typescript',
     'prettier/@typescript-eslint',
   ],
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'import'],
+  env: {
+    es2020: true,
+  },
   rules: {
     'import/extensions': [
       'error',

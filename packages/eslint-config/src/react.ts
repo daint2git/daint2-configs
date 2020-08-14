@@ -7,6 +7,7 @@ export = {
   ],
   env: {
     browser: true,
+    node: true,
   },
   rules: {
     'react/jsx-filename-extension': [
